@@ -1,0 +1,38 @@
+body{
+  font-family: Arial;
+  background-color: azure;
+  border: 10px;
+}
+
+.sub{
+  background-color: red;
+  border-radius: 2px;
+  margin-right: 12px;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.twe{
+  background-color: #00b7ff;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  padding: 7px 16px;
+}
+
+.sub:hover{
+  opacity: 0.8;
+}
+
+.sub:active{
+  opacity: 0.5;
+}
+
+.twe:hover{
+  box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.15);
+}
